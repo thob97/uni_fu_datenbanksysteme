@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
+		<title>Eine Webseite</title>
+	</head>
+	<body>
+		<label for="eingabe">
+			Ihr Name:
+			<input id="feld" name="eingabe" />
+		</label>
+		<button id="knopf" type="button" onclick="myFunction()">
+			Klick mich!
+		</button>
+		<div id="bereich"></div>
+	</body>
+	<script>
+	function myFunction(){
+		if(document.getElementById("feld").value != "") {
+			name = 	document.getElementById("feld").value
+		}
+		else {
+			name = "Unbekannter"
+		}
+		document.getElementById("bereich").innerHTML = "Hallo " + name
+	}
+	</script>
+</html>
