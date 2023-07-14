@@ -7,6 +7,7 @@ The purpose of this repository is to serve as data storage and to present the co
 - [Course content](#course-content)
 - [Grading](#grading)
 - [Contribution](#contribution)
+- [See also](#see-also)
 
 
 ## Course content
@@ -45,3 +46,6 @@ Datenbankentwurf mit ERM/ERDD. Theoretische Grundlagen relationaler Datenbanksys
 * Thore Brehmer - solved tasks 1-9
 * Jonny Lam - helped solving some sub-tasks of 1-9
 * David Lee -
+  
+## See also
+* [Uni Overview](https://github.com/thob97/uni_overview.git)
